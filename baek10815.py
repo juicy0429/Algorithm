@@ -35,3 +35,57 @@ for i in range(check_number):
     print(answer,end = ' ')
 
 ## 소스트리 커밋 테스트
+
+
+# def binary_search(num):
+#     left = 0
+#     right = n-1
+#     while left <= right :
+#         mid = (left+right)//2
+#         if intCard[mid] == num :
+#             return 1
+#         elif intCard[mid] > num :
+#             right = mid - 1
+#             # 반 줄여주기 1
+#         else:
+#             left = mid + 1
+#             # 반 줄여주기 2
+#     return 0
+# ​
+# n = int(input())
+# intCard = list(map(int, input().split()))
+# intCard.sort()
+# ​
+# input() #M
+# for num in list(map(int, input().split())):
+#     print(binary_search(num), end = ' ')
+
+
+# import java.util.HashSet;
+# import java.util.Scanner;
+# public class B10815 {
+#   public static void main(String[] args) {
+#      System.out.print("ÀÔ·Â");
+#      Scanner scanner = new Scanner(System.in);
+#      HashSet<Integer> set1 = new HashSet<Integer>();
+#      int l1 = scanner.nextInt();
+#      for (int i=0; i<l1; i++) {
+#         set1.add(scanner.nextInt());
+#      }
+#      int l2 = scanner.nextInt();
+#      int [] check = new int [l2];
+#      for (int i=0; i<l2; i++) {
+#         int num = scanner.nextInt();
+#         check[i]= num;
+#      }
+     
+#      for(int j=0; j<l2; j++) {
+#         if(set1.contains(check[j])){
+#            System.out.print(1);
+#         } else {
+#            System.out.print(0);
+#         }System.out.print(" ");
+#      }
+#      scanner.close();
+#   }
+# }
